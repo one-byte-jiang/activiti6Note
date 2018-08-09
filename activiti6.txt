@@ -1,1 +1,3 @@
 ﻿====activiti====
+事件的监听：1.eventListeners,对所有事件类型的监听
+2.typedEventListeners,是对某一个指定类型的监听 比如流程开始、结束等

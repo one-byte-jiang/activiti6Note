@@ -1,23 +1,9 @@
-﻿====activiti====
-事件的监听：1.eventListeners,对所有事件类型的监听
-2.typedEventListeners,是对某一个指定类型的监听 比如流程开始、结束等
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-#集成Spring配置
-添加pom依赖
-	    <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-engine</artifactId>
-            <version>6.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.activiti</groupId>
-            <artifactId>activiti-spring</artifactId>
-            <version>6.0.0</version>
-        </dependency>
-基于Spring的默认配置activiti-context.xml 而不是activiti.cfg.xml
-activiti-context.xml内容如下：
-
-<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+  <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
     <property name="url" value="jdbc:mysql://localhost:3306/activiti6" />
     <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     <property name="username" value="root" />
@@ -32,7 +18,7 @@ activiti-context.xml内容如下：
   <bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
     <property name="dataSource" ref="dataSource" />
     <property name="transactionManager" ref="transactionManager" />
-	<property name="databaseSchemaUpdate" value="true" />
+    <property name="databaseSchemaUpdate" value="true" />
   </bean>
   <bean id="processEngine" class="org.activiti.spring.ProcessEngineFactoryBean">
     <!--创建流程引擎对象-->
@@ -48,3 +34,5 @@ activiti-context.xml内容如下：
   <bean id="activitiRule" class="org.activiti.engine.test.ActivitiRule">
     <property name="processEngine" ref="processEngine"/>
   </bean>
+  <bean id="helloBean" class="com.imooc.activiti.helloBean.HelloBean"></bean>
+</beans>

@@ -48,3 +48,16 @@ activiti-context.xml内容如下：
   <bean id="activitiRule" class="org.activiti.engine.test.ActivitiRule">
     <property name="processEngine" ref="processEngine"/>
   </bean>
+
+
+
+==TaskService设置Task权限信息==
+candidateUser:候选用户
+candidateGroup:候选组
+
+ToStringBuilder.reflectionToString(obj,ToStringStyle.JSON_STYLE);对象已json格式toString
+
+==IdentityService身份管理服务==
+保存用户原理、判断版本号。版本号为0视为新增、其余修改。然后放入记录到缓存。等到flush刷新的时候，再按照insert、update、delete的顺序更新到数据库里面
+
+==FormService==

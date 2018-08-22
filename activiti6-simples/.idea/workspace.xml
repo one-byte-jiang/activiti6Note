@@ -29,25 +29,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coreapi/pom.xml">
+      <file leaf-file-name="TaskServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/TaskServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepostoryServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/RepostoryServiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+            <state relative-caret-position="368">
+              <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/FormServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-process-form.bpmn20.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="50" />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
         </entry>
       </file>
     </leaf>
@@ -66,6 +79,7 @@
       <find>create</find>
       <find>Spring</find>
       <find>getRuntimeService</find>
+      <find>attachmentType</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -98,6 +112,13 @@
         <option value="$PROJECT_DIR$/config/src/test/resources/com/imooc/activiti/my-process_spring.bpmn20.xml" />
         <option value="$PROJECT_DIR$/coreapi/pom.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/RepostoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/RuntimeServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/resources/com/imooc/activiti/my-process-task.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/TaskServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/IdentityServiceTest.java" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/FormServiceTest.java" />
       </list>
     </option>
   </component>
@@ -149,17 +170,18 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="64" />
-    <option name="y" value="64" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="452" />
+    <option name="y" value="24" />
     <option name="width" value="1400" />
-    <option name="height" value="992" />
+    <option name="height" value="1079" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +267,16 @@
               <item name="coreapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -253,7 +285,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,15 +299,20 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.activiti.config" />
-      <recent name="com.imooc.activiti" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources" />
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources\com\imooc\activiti" />
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\config\src\test\resources\com\imooc\activiti" />
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\config\src\main\resources" />
       <recent name="D:\ideaWorkSpance\activiti6-simples\config\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.activiti.coreapi" />
+      <recent name="com.imooc.activiti.config" />
+      <recent name="com.imooc.activiti" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,103 +327,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepostoryServiceTest.testRepostory">
+  <component name="RunManager" selected="JUnit.FormServiceTest.testFormService">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ConfigEventListenerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.ConfigEventListenerTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConfigInterceptorTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.ConfigInterceptorTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConfigSpringTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.config" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.config.ConfigSpringTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MyUnitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.MyUnitTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RepostoryServiceTest.testRepostory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FormServiceTest.testFormService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coreapi" />
       <extension name="coverage">
         <pattern>
@@ -398,8 +342,100 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.RepostoryServiceTest" />
-      <option name="METHOD_NAME" value="testRepostory" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.FormServiceTest" />
+      <option name="METHOD_NAME" value="testFormService" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="IdentityServiceTest.testIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.IdentityServiceTest" />
+      <option name="METHOD_NAME" value="testIdentity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TaskServiceTest.testTaskAttachment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskAttachment" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TaskServiceTest.testTaskComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskComment" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TaskServiceTest.testTaskServiceUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coreapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.TaskServiceTest" />
+      <option name="METHOD_NAME" value="testTaskServiceUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -449,19 +485,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyUnitTest.test" />
-      <item itemvalue="JUnit.ConfigEventListenerTest.test" />
-      <item itemvalue="JUnit.ConfigInterceptorTest.test" />
-      <item itemvalue="JUnit.ConfigSpringTest.test" />
-      <item itemvalue="JUnit.RepostoryServiceTest.testRepostory" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
+      <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
+      <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
+      <item itemvalue="JUnit.FormServiceTest.testFormService" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RepostoryServiceTest.testRepostory" />
-        <item itemvalue="JUnit.ConfigSpringTest.test" />
-        <item itemvalue="JUnit.ConfigInterceptorTest.test" />
-        <item itemvalue="JUnit.ConfigEventListenerTest.test" />
-        <item itemvalue="JUnit.MyUnitTest.test" />
+        <item itemvalue="JUnit.FormServiceTest.testFormService" />
+        <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
+        <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
+        <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
+        <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
       </list>
     </recent_temporary>
   </component>
@@ -483,65 +519,69 @@
       <workItem from="1533643897056" duration="278000" />
       <workItem from="1533820419065" duration="5709000" />
       <workItem from="1534167733941" duration="2719000" />
-      <workItem from="1534335870512" duration="6121000" />
+      <workItem from="1534335870512" duration="6742000" />
+      <workItem from="1534425699341" duration="1774000" />
+      <workItem from="1534666201029" duration="55000" />
+      <workItem from="1534666359640" duration="280000" />
+      <workItem from="1534772115516" duration="4570000" />
+      <workItem from="1534944934619" duration="7226000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConfigEventListenerTest_test - 2018.08.09 at 22h 41m 25s.xml">
-      <configuration name="ConfigEventListenerTest.test" configurationId="JUnit" />
+    <history-entry file="TaskServiceTest_testTaskComment - 2018.08.22 at 23h 09m 51s.xml">
+      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigInterceptorTest_test - 2018.08.09 at 23h 06m 25s.xml">
-      <configuration name="ConfigInterceptorTest.test" configurationId="JUnit" />
+    <history-entry file="TaskServiceTest_testTaskComment - 2018.08.22 at 23h 10m 58s.xml">
+      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigInterceptorTest_test - 2018.08.09 at 23h 08m 57s.xml">
-      <configuration name="ConfigInterceptorTest.test" configurationId="JUnit" />
+    <history-entry file="IdentityServiceTest_testIdentity - 2018.08.22 at 23h 25m 07s.xml">
+      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.08.15 at 22h 19m 58s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
+    <history-entry file="IdentityServiceTest_testIdentity - 2018.08.22 at 23h 25m 21s.xml">
+      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.08.15 at 22h 21m 03s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
+    <history-entry file="IdentityServiceTest_testIdentity - 2018.08.22 at 23h 25m 57s.xml">
+      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.08.15 at 22h 30m 48s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
+    <history-entry file="FormServiceTest_testFormService - 2018.08.22 at 23h 55m 16s.xml">
+      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConfigSpringTest_test - 2018.08.15 at 22h 31m 45s.xml">
-      <configuration name="ConfigSpringTest.test" configurationId="JUnit" />
+    <history-entry file="FormServiceTest_testFormService - 2018.08.22 at 23h 55m 47s.xml">
+      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepostoryServiceTest_testRepostory - 2018.08.15 at 23h 12m 34s.xml">
-      <configuration name="RepostoryServiceTest.testRepostory" configurationId="JUnit" />
+    <history-entry file="FormServiceTest_testFormService - 2018.08.23 at 00h 01m 54s.xml">
+      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepostoryServiceTest_testRepostory - 2018.08.15 at 23h 12m 56s.xml">
-      <configuration name="RepostoryServiceTest.testRepostory" configurationId="JUnit" />
+    <history-entry file="FormServiceTest_testFormService - 2018.08.23 at 00h 06m 01s.xml">
+      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RepostoryServiceTest_testRepostory - 2018.08.15 at 23h 15m 14s.xml">
-      <configuration name="RepostoryServiceTest.testRepostory" configurationId="JUnit" />
+    <history-entry file="FormServiceTest_testFormService - 2018.08.23 at 00h 06m 37s.xml">
+      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28894000" />
+    <option name="totallyTimeSpent" value="43420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="452" y="24" width="1400" height="1079" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.35423926" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.35337552" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32972974" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32985073" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49733475" visible="true" weight="0.30378377" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.27531645" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27558637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41417912" />
       <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -552,10 +592,10 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +606,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -574,51 +614,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/MyUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/config/ConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/ProcessEngineConfigurationImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2489">
-          <caret line="131" column="72" lean-forward="true" selection-start-line="131" selection-start-column="72" selection-end-line="131" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/cfg/StandaloneInMemProcessEngineConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/BeansConfigurationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -742,9 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -801,9 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="121" column="27" selection-start-line="121" selection-start-column="27" selection-end-line="121" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#47363#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,20 +835,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/resources/com/imooc/activiti/my-process_spring.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/config/ConfigSpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -910,25 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/second_approve.bpmn20.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/repository/DeploymentQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-851">
@@ -936,10 +894,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/persistence/entity/AttachmentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/RuntimeServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="39" selection-start-line="27" selection-start-column="7" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-task.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="104" selection-start-line="13" selection-start-column="104" selection-end-line="13" selection-end-column="104" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="682" column="10" selection-start-line="682" selection-start-column="10" selection-end-line="682" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/RepostoryServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state relative-caret-position="114">
+          <caret line="14" column="58" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/identity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/IdentityServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/TaskServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="105" column="8" lean-forward="true" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/resources/my-process-form.bpmn20.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/FormServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

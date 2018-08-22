@@ -1,10 +1,9 @@
 package com.imooc.activiti.coreapi;
 
 import org.activiti.engine.RepositoryService;
-import org.activiti.engine.repository.Deployment;
-import org.activiti.engine.repository.DeploymentBuilder;
-import org.activiti.engine.repository.DeploymentQuery;
-import org.activiti.engine.repository.ProcessDefinition;
+import org.activiti.engine.RuntimeService;
+import org.activiti.engine.repository.*;
+import org.activiti.engine.task.IdentityLink;
 import org.activiti.engine.test.ActivitiRule;
 import org.junit.Rule;
 import org.junit.Test;
@@ -27,5 +26,19 @@ public class RepostoryServiceTest {
         System.out.println(deployment.toString());
         List<ProcessDefinition> processDefinitions = repositoryService.createProcessDefinitionQuery().deploymentId(deploy.getId()).listPage(0, 100);
         System.out.println(processDefinitions.toString());
+    }
+    @Test
+    @org.activiti.engine.test.Deployment(resources = {"my-process.bpmn20.xml"})
+    public void testCandidateStarter(){
+        //指定哪些用户才能启动流程
+        RepositoryService repositoryService = activitiRule.getRepositoryService();//获取Repostory
+        ProcessDefinition processDefinition = repositoryService.createProcessDefinitionQuery().singleResult();
+        //repositoryService.suspendProcessDefinitionById(processDefinition.getId());//暂停流程
+        repositoryService.addCandidateStarterUser(processDefinition.getId(),"user");//指定用户
+        repositoryService.addCandidateStarterGroup(processDefinition.getId(),"group");//指定用户组
+        List<IdentityLink> identityLinksForProcessDefinition = repositoryService.getIdentityLinksForProcessDefinition(processDefinition.getId());//获取流程相关的用户认证信息
+        for (IdentityLink identityLink:identityLinksForProcessDefinition) {
+            System.out.println(identityLink);
+        }
     }
 }

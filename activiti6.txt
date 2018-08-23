@@ -61,3 +61,10 @@ ToStringBuilder.reflectionToString(obj,ToStringStyle.JSON_STYLE);对象已json�
 保存用户原理、判断版本号。版本号为0视为新增、其余修改。然后放入记录到缓存。等到flush刷新的时候，再按照insert、update、delete的顺序更新到数据库里面
 
 ==FormService==
+
+==数据模型设计==
+ACT_GE_* 通用数据表（GE代表General）
+ACT_RE_* 流程定义存储表（RE代表repository）
+ACT_ID_* 身份信息表（ID表示idetity）
+ACT_RU_* 运行时数据库表（RU表示Runtime）
+ACT_HI_* 历史数据库表

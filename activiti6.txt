@@ -68,3 +68,15 @@ ACT_RE_* 流程定义存储表（RE代表repository）
 ACT_ID_* 身份信息表（ID表示idetity）
 ACT_RU_* 运行时数据库表（RU表示Runtime）
 ACT_HI_* 历史数据库表
+
+1.history表和Identity表是可选的。
+
+配置processEngineConfiguration时可加上：
+<property name="dbHistoryUsed" value="false" /> 表示不使用history 8张表
+<property name="dbIdentityUsed" value="false" /> 表示不使用Identity 4张表
+
+流程定义存储表
+ACT_RE_DEPLOYMENT 流程部署记录表
+ACT_RE_PROCDEF    流程定义信息表
+ACT_RE_MODEL 	  模型信息表（用于WEB设计器）
+ACT_PROCDEF_INFO  流程定义动态改变信息表

@@ -6,6 +6,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/coreapi/target/" />
+    <ignored path="$PROJECT_DIR$/dbentity/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +25,90 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="local" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="activiti6: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DdconfigTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DdconfigTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbRepostoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRepostoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="act_re_procdef" pinned="false" current-in-tab="false">
+        <entry file="das://4246e7b4-f0a4-4029-aa18-58fa314327ab/schema/activiti6/table/act_re_procdef">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4246e7b4-f0a4-4029-aa18-58fa314327ab/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="activiti-mysql.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandaloneInMemProcessEngineConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/StandaloneInMemProcessEngineConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessEngineConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/ProcessEngineConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +166,12 @@
         <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/FormServiceTest.java" />
         <option value="$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/HistoryServiceTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/pom.xml" />
+        <option value="$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DdconfigTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbGeTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/resources/second_approve.bpmn20.xml" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRepostoryTest.java" />
       </list>
     </option>
   </component>
@@ -137,9 +223,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="251" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="311" />
+    <option name="y" value="-15" />
     <option name="width" value="1400" />
     <option name="height" value="1079" />
   </component>
@@ -148,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -165,42 +252,63 @@
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -208,108 +316,65 @@
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
               <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
-              <item name="coreapi" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-6.0.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-6.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-6.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti-engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-6.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-6.0.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti6-simples" type="462c0819:PsiDirectoryNode" />
+              <item name="dbentity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activiti6simples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:6.0.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-6.0.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -323,16 +388,17 @@
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.activiti.dbentity" />
       <recent name="com.imooc.activiti.coreapi" />
       <recent name="com.imooc.activiti.config" />
       <recent name="com.imooc.activiti" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\dbentity\src\test\resources" />
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\dbentity\src\main\resources" />
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\main\resources" />
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources" />
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources\com\imooc\activiti" />
-      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\config\src\test\resources\com\imooc\activiti" />
-      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\config\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,23 +413,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FormServiceTest.testFormService">
+  <component name="RunManager" selected="JUnit.DbRepostoryTest.testSuspent">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="FormServiceTest.testFormService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
+    <configuration name="DbGeTest.testByArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.FormServiceTest" />
-      <option name="METHOD_NAME" value="testFormService" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbGeTest" />
+      <option name="METHOD_NAME" value="testByArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -374,19 +440,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="IdentityServiceTest.testIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
+    <configuration name="DbGeTest.testByArrayInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.IdentityServiceTest" />
-      <option name="METHOD_NAME" value="testIdentity" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbGeTest" />
+      <option name="METHOD_NAME" value="testByArrayInsert" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -397,19 +463,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TaskServiceTest.testTaskAttachment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
+    <configuration name="DbRepostoryTest.testDeploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.TaskServiceTest" />
-      <option name="METHOD_NAME" value="testTaskAttachment" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbRepostoryTest" />
+      <option name="METHOD_NAME" value="testDeploy" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -420,19 +486,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TaskServiceTest.testTaskComment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
+    <configuration name="DbRepostoryTest.testSuspent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.TaskServiceTest" />
-      <option name="METHOD_NAME" value="testTaskComment" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbRepostoryTest" />
+      <option name="METHOD_NAME" value="testSuspent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -443,19 +509,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TaskServiceTest.testTaskServiceUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="coreapi" />
+    <configuration name="DdconfigTest.dropTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.coreapi.*" />
+          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.coreapi" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.coreapi.TaskServiceTest" />
-      <option name="METHOD_NAME" value="testTaskServiceUser" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DdconfigTest" />
+      <option name="METHOD_NAME" value="dropTable" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -505,19 +571,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
-      <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
-      <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
-      <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
-      <item itemvalue="JUnit.FormServiceTest.testFormService" />
+      <item itemvalue="JUnit.DdconfigTest.dropTable" />
+      <item itemvalue="JUnit.DbGeTest.testByArray" />
+      <item itemvalue="JUnit.DbGeTest.testByArrayInsert" />
+      <item itemvalue="JUnit.DbRepostoryTest.testDeploy" />
+      <item itemvalue="JUnit.DbRepostoryTest.testSuspent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FormServiceTest.testFormService" />
-        <item itemvalue="JUnit.IdentityServiceTest.testIdentity" />
-        <item itemvalue="JUnit.TaskServiceTest.testTaskComment" />
-        <item itemvalue="JUnit.TaskServiceTest.testTaskAttachment" />
-        <item itemvalue="JUnit.TaskServiceTest.testTaskServiceUser" />
+        <item itemvalue="JUnit.DbRepostoryTest.testSuspent" />
+        <item itemvalue="JUnit.DbRepostoryTest.testDeploy" />
+        <item itemvalue="JUnit.DbGeTest.testByArray" />
+        <item itemvalue="JUnit.DbGeTest.testByArrayInsert" />
+        <item itemvalue="JUnit.DdconfigTest.dropTable" />
       </list>
     </recent_temporary>
   </component>
@@ -546,74 +612,77 @@
       <workItem from="1534772115516" duration="4570000" />
       <workItem from="1534944934619" duration="7226000" />
       <workItem from="1535034541159" duration="2780000" />
+      <workItem from="1535463768243" duration="2571000" />
+      <workItem from="1535549575170" duration="4025000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TaskServiceTest_testTaskComment - 2018.08.22 at 23h 09m 51s.xml">
-      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
+    <history-entry file="DbGeTest_testByArray - 2018.08.29 at 22h 10m 34s.xml">
+      <configuration name="DbGeTest.testByArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TaskServiceTest_testTaskComment - 2018.08.22 at 23h 10m 58s.xml">
-      <configuration name="TaskServiceTest.testTaskComment" configurationId="JUnit" />
+    <history-entry file="DbGeTest_testByArrayInsert - 2018.08.29 at 22h 17m 26s.xml">
+      <configuration name="DbGeTest.testByArrayInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IdentityServiceTest_testIdentity - 2018.08.22 at 23h 25m 07s.xml">
-      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
+    <history-entry file="DbGeTest_testByArray - 2018.08.29 at 22h 34m 11s.xml">
+      <configuration name="DbGeTest.testByArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IdentityServiceTest_testIdentity - 2018.08.22 at 23h 25m 21s.xml">
-      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
+    <history-entry file="DbGeTest_testByArrayInsert - 2018.08.29 at 22h 34m 26s.xml">
+      <configuration name="DbGeTest.testByArrayInsert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IdentityServiceTest_testIdentity - 2018.08.22 at 23h 25m 57s.xml">
-      <configuration name="IdentityServiceTest.testIdentity" configurationId="JUnit" />
+    <history-entry file="DbGeTest_testByArray - 2018.08.29 at 22h 36m 56s.xml">
+      <configuration name="DbGeTest.testByArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormServiceTest_testFormService - 2018.08.22 at 23h 55m 16s.xml">
-      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
+    <history-entry file="DbRepostoryTest_testDeploy - 2018.08.29 at 22h 40m 54s.xml">
+      <configuration name="DbRepostoryTest.testDeploy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormServiceTest_testFormService - 2018.08.22 at 23h 55m 47s.xml">
-      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
+    <history-entry file="DbRepostoryTest_testDeploy - 2018.08.29 at 22h 44m 03s.xml">
+      <configuration name="DbRepostoryTest.testDeploy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormServiceTest_testFormService - 2018.08.23 at 00h 01m 54s.xml">
-      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
+    <history-entry file="DbRepostoryTest_testSuspent - 2018.08.29 at 22h 49m 36s.xml">
+      <configuration name="DbRepostoryTest.testSuspent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormServiceTest_testFormService - 2018.08.23 at 00h 06m 01s.xml">
-      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
+    <history-entry file="DbRepostoryTest_testSuspent - 2018.08.29 at 22h 51m 08s.xml">
+      <configuration name="DbRepostoryTest.testSuspent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormServiceTest_testFormService - 2018.08.23 at 00h 06m 37s.xml">
-      <configuration name="FormServiceTest.testFormService" configurationId="JUnit" />
+    <history-entry file="DbRepostoryTest_testSuspent - 2018.08.29 at 22h 51m 25s.xml">
+      <configuration name="DbRepostoryTest.testSuspent" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46200000" />
+    <option name="totallyTimeSpent" value="52796000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="251" width="1400" height="1079" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32972974" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32985073" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.27531645" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.39925373" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
-      <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.27771854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.35243243" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.28216216" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
+      <window_info anchor="right" id="BPMNPalette" order="5" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.35337552" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
@@ -627,7 +696,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -635,125 +704,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/multitenant/MultiSchemaMultiTenantProcessEngineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/StandaloneInMemProcessEngineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/ProcessEngineConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="85" column="72" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4856">
-          <caret line="706" column="20" selection-start-line="706" selection-start-column="16" selection-end-line="706" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/imooc/activiti/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/delegate/event/ActivitiEventType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/RuntimeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1181" column="34" selection-start-line="1181" selection-start-column="21" selection-end-line="1181" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/delegate/event/ActivitiEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/delegate/event/impl/ActivitiMembershipEventImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/interceptor/CommandInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/interceptor/AbstractCommandInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/CommandInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activitiInterceptor.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/imooc/activiti/interceptor/customPreInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/config/ConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/MyUnitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="42" lean-forward="true" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/imooc/activiti/event/ProcessEvenListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/activitiEventListener.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -810,20 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_job.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/ConfigEventListenerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -852,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="90" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/ProcessEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -877,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -940,16 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -957,9 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,9 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="482">
           <caret line="105" column="8" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,25 +890,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/ManagementServiceTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/db/create/activiti.mysql.create.engine.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti_job.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/activiti-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/MyUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/StandaloneProcessEngineConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/StandaloneInMemProcessEngineConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/ProcessEngineConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4246e7b4-f0a4-4029-aa18-58fa314327ab/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/CommandContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4246e7b4-f0a4-4029-aa18-58fa314327ab/schema/activiti6/table/act_ge_bytearray">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/test/ActivitiRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding>
+            <element signature="e#3846#3847#0" expanded="true" />
+            <element signature="e#3906#3907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/test/java/com/imooc/activiti/ConfigEventListenerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4246e7b4-f0a4-4029-aa18-58fa314327ab/schema/activiti6/table/act_re_deployment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbGeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="22" column="79" selection-start-line="22" selection-start-column="79" selection-end-line="22" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0.jar!/org/activiti/engine/impl/persistence/entity/ByteArrayEntityImpl.class">
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/resources/second_approve.bpmn20.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DdconfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#0#2062#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/ManagementServiceTest.java">
+    <entry file="das://4246e7b4-f0a4-4029-aa18-58fa314327ab/schema/activiti6/table/act_re_procdef">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRepostoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="456">
+          <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
         </state>
       </provider>
     </entry>

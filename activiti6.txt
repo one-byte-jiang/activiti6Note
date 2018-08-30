@@ -80,3 +80,31 @@ ACT_RE_DEPLOYMENT 流程部署记录表
 ACT_RE_PROCDEF    流程定义信息表
 ACT_RE_MODEL 	  模型信息表（用于WEB设计器）
 ACT_PROCDEF_INFO  流程定义动态改变信息表
+
+身份数据表
+ACT_ID_USER  	用户的基本信息
+ACT_ID_INFO 	用户的扩展信息
+ACT_ID_GROUP	群组
+ACT_ID_MEMBERSHIP 用户与群组关系
+
+运行时流程数据表
+ACT_RU_EXECUTION	流程实例与分支执行信息
+ACT_RU_TASK		用户任务信息
+ACT_RU_VARIABLE		变量信息
+ACT_RU_IDENTITYLINK	参与者相关信息
+ACT_RU_EVENT_SUBSCR	事件监听表
+ACT_RU_JOB		作业表
+ACT_RU_TIMER_JOB	定时器表
+ACT_RU_SUSPENDED_JOB	暂停作业表
+ACT_RU_DEADLETTER_JOB	死信表
+
+历史流程数据表  （将历史级别设置为FULL才会记录历史变量等信息）
+ACT_HI_PROCINST		历史流程实例
+ACT_HI_ACTINST		历史节点信息表
+ACT_HI_TASKINST		历史任务表
+ACT_HI_VARINST		历史变量
+ACT_HI_IDENTITYLINK	历史参与者
+ACT_HI_DETAIL		历史变更
+ACT_HI_ATTACHMENT	附件
+ACT_HI_COMMENT		评论
+ACT_EVT_LOG		事件日志

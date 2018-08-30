@@ -46,64 +46,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DdconfigTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DdconfigTest.java">
+      <file leaf-file-name="DbRuntimeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRuntimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DbRepostoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRepostoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="act_re_procdef" pinned="false" current-in-tab="false">
-        <entry file="das://4246e7b4-f0a4-4029-aa18-58fa314327ab/schema/activiti6/table/act_re_procdef">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4246e7b4-f0a4-4029-aa18-58fa314327ab/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="activiti-mysql.cfg.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StandaloneInMemProcessEngineConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/cfg/StandaloneInMemProcessEngineConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessEngineConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/ProcessEngineConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="72" />
+            <state relative-caret-position="133">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -167,11 +123,13 @@
         <option value="$PROJECT_DIR$/coreapi/src/main/resources/activiti_history.cfg.xml" />
         <option value="$PROJECT_DIR$/coreapi/src/test/java/com/imooc/activiti/coreapi/HistoryServiceTest.java" />
         <option value="$PROJECT_DIR$/dbentity/pom.xml" />
-        <option value="$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml" />
         <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DdconfigTest.java" />
         <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbGeTest.java" />
         <option value="$PROJECT_DIR$/dbentity/src/test/resources/second_approve.bpmn20.xml" />
         <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRepostoryTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbIdentityTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRuntimeTest.java" />
+        <option value="$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml" />
       </list>
     </option>
   </component>
@@ -223,20 +181,19 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="311" />
-    <option name="y" value="-15" />
-    <option name="width" value="1400" />
-    <option name="height" value="1079" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="383" />
+    <option name="y" value="130" />
+    <option name="width" value="1406" />
+    <option name="height" value="891" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -368,6 +325,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,8 +342,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\dbentity\src\test\resources" />
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\dbentity\src\main\resources" />
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\main\resources" />
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources" />
+      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources\com\imooc\activiti" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.activiti.dbentity" />
@@ -393,12 +355,8 @@
       <recent name="com.imooc.activiti.config" />
       <recent name="com.imooc.activiti" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\dbentity\src\test\resources" />
-      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\dbentity\src\main\resources" />
-      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources" />
-      <recent name="D:\ideaWorkSpance\activiti6Note\activiti6-simples\coreapi\src\test\resources\com\imooc\activiti" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,11 +371,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DbRepostoryTest.testSuspent">
+  <component name="RunManager" selected="JUnit.DbRuntimeTest.testSetOwner">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DbGeTest.testByArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DbIdentityTest.testIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dbentity" />
       <extension name="coverage">
         <pattern>
@@ -428,31 +386,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbGeTest" />
-      <option name="METHOD_NAME" value="testByArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DbGeTest.testByArrayInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dbentity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbGeTest" />
-      <option name="METHOD_NAME" value="testByArrayInsert" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbIdentityTest" />
+      <option name="METHOD_NAME" value="testIdentity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -509,7 +444,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DdconfigTest.dropTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DbRuntimeTest.testRuntime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dbentity" />
       <extension name="coverage">
         <pattern>
@@ -520,8 +455,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DdconfigTest" />
-      <option name="METHOD_NAME" value="dropTable" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbRuntimeTest" />
+      <option name="METHOD_NAME" value="testRuntime" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DbRuntimeTest.testSetOwner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbentity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.activiti.dbentity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.activiti.dbentity" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.activiti.dbentity.DbRuntimeTest" />
+      <option name="METHOD_NAME" value="testSetOwner" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -571,19 +529,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DdconfigTest.dropTable" />
-      <item itemvalue="JUnit.DbGeTest.testByArray" />
-      <item itemvalue="JUnit.DbGeTest.testByArrayInsert" />
       <item itemvalue="JUnit.DbRepostoryTest.testDeploy" />
       <item itemvalue="JUnit.DbRepostoryTest.testSuspent" />
+      <item itemvalue="JUnit.DbIdentityTest.testIdentity" />
+      <item itemvalue="JUnit.DbRuntimeTest.testRuntime" />
+      <item itemvalue="JUnit.DbRuntimeTest.testSetOwner" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbRuntimeTest.testSetOwner" />
+        <item itemvalue="JUnit.DbRuntimeTest.testRuntime" />
+        <item itemvalue="JUnit.DbIdentityTest.testIdentity" />
         <item itemvalue="JUnit.DbRepostoryTest.testSuspent" />
         <item itemvalue="JUnit.DbRepostoryTest.testDeploy" />
-        <item itemvalue="JUnit.DbGeTest.testByArray" />
-        <item itemvalue="JUnit.DbGeTest.testByArrayInsert" />
-        <item itemvalue="JUnit.DdconfigTest.dropTable" />
       </list>
     </recent_temporary>
   </component>
@@ -614,74 +572,75 @@
       <workItem from="1535034541159" duration="2780000" />
       <workItem from="1535463768243" duration="2571000" />
       <workItem from="1535549575170" duration="4025000" />
+      <workItem from="1535636432006" duration="3444000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DbGeTest_testByArray - 2018.08.29 at 22h 10m 34s.xml">
-      <configuration name="DbGeTest.testByArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbGeTest_testByArrayInsert - 2018.08.29 at 22h 17m 26s.xml">
-      <configuration name="DbGeTest.testByArrayInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbGeTest_testByArray - 2018.08.29 at 22h 34m 11s.xml">
-      <configuration name="DbGeTest.testByArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbGeTest_testByArrayInsert - 2018.08.29 at 22h 34m 26s.xml">
-      <configuration name="DbGeTest.testByArrayInsert" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbGeTest_testByArray - 2018.08.29 at 22h 36m 56s.xml">
-      <configuration name="DbGeTest.testByArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbRepostoryTest_testDeploy - 2018.08.29 at 22h 40m 54s.xml">
-      <configuration name="DbRepostoryTest.testDeploy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbRepostoryTest_testDeploy - 2018.08.29 at 22h 44m 03s.xml">
-      <configuration name="DbRepostoryTest.testDeploy" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbRepostoryTest_testSuspent - 2018.08.29 at 22h 49m 36s.xml">
-      <configuration name="DbRepostoryTest.testSuspent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DbRepostoryTest_testSuspent - 2018.08.29 at 22h 51m 08s.xml">
-      <configuration name="DbRepostoryTest.testSuspent" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DbRepostoryTest_testSuspent - 2018.08.29 at 22h 51m 25s.xml">
       <configuration name="DbRepostoryTest.testSuspent" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DbIdentityTest_testIdentity - 2018.08.30 at 21h 58m 35s.xml">
+      <configuration name="DbIdentityTest.testIdentity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testRuntime - 2018.08.30 at 22h 19m 56s.xml">
+      <configuration name="DbRuntimeTest.testRuntime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testRuntime - 2018.08.30 at 22h 21m 33s.xml">
+      <configuration name="DbRuntimeTest.testRuntime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testSetOwner - 2018.08.30 at 22h 30m 43s.xml">
+      <configuration name="DbRuntimeTest.testSetOwner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testSetOwner - 2018.08.30 at 22h 32m 01s.xml">
+      <configuration name="DbRuntimeTest.testSetOwner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testSetOwner - 2018.08.30 at 22h 33m 28s.xml">
+      <configuration name="DbRuntimeTest.testSetOwner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testRuntime - 2018.08.30 at 22h 33m 42s.xml">
+      <configuration name="DbRuntimeTest.testRuntime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testRuntime - 2018.08.30 at 22h 34m 18s.xml">
+      <configuration name="DbRuntimeTest.testRuntime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbRuntimeTest_testSetOwner - 2018.08.30 at 22h 34m 32s.xml">
+      <configuration name="DbRuntimeTest.testSetOwner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52796000" />
+    <option name="totallyTimeSpent" value="56240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="383" y="130" width="1406" height="891" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32972974" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32985073" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.27771854" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49946696" weight="0.35243243" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.32972974" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32985073" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.2631579" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.28216216" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32972974" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29264393" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.41233283" />
+      <window_info anchor="right" id="Database" order="7" weight="0.27771854" />
       <window_info anchor="right" id="BPMNPalette" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32972974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -959,20 +918,10 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/ProcessEngineConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
+        <state relative-caret-position="1178">
           <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="72" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4246e7b4-f0a4-4029-aa18-58fa314327ab/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/impl/interceptor/CommandContext.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -988,17 +937,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/test/ActivitiRule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding>
-            <element signature="e#3846#3847#0" expanded="true" />
-            <element signature="e#3906#3907#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1026,17 +968,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbentity/src/test/resources/second_approve.bpmn20.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DdconfigTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="95">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1053,8 +987,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRepostoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="88" selection-start-line="31" selection-start-column="88" selection-end-line="31" selection-end-column="88" />
+        <state relative-caret-position="532">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbIdentityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/activiti/activiti-engine/6.0.0/activiti-engine-6.0.0-sources.jar!/org/activiti/engine/RuntimeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/main/resources/activiti-mysql.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbentity/src/test/java/com/imooc/activiti/dbentity/DbRuntimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
